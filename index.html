@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PerfumeHeaven</title>
+</head>
+<body>
+    <html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfume Haven</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">Perfume Haven</a>
+            <background color = black></background>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <style>.navbar {
+                background-color: #f3e5f5;
+            }
+            
+            .navbar-brand, .nav-link {
+                color: #6a1b9a !important;
+            }
+            
+            .nav-link:hover {
+                color: #4a148c !important;
+            }
+            </style>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#featured">Featured</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#reviews">Reviews</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section with Carousel -->
+    <section id="home" class="container mt-4">
+        <div id="perfumeCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="asset/sliderIMG_3.jpeg" class="d-block w-100" alt="Elegant Fragrances">
+                    <style>.carousel-item img {
+                        height: 500px;
+                        object-fit: cover;
+                    }
+                    
+                    .carousel-caption h5 {
+                        font-size: 2.5rem;
+                        font-weight: bold;
+                        color: #ffffff;
+                    }
+                    
+                    .carousel-caption p {
+                        color: #eceff1;
+                        font-size: 1.25rem;
+                    }
+                    
+                    /* Section titles */
+                    h2 {
+                        color: #6a1b9a;
+                        margin-bottom: 1rem;
+                    }
+                    </style>
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Elegant Fragrances</h5>
+                        <p>Discover timeless scents that captivate and enchant.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="asset/sliderIMG_1.JPG" class="d-block w-100" alt="Luxury Perfumes">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Luxury Perfumes</h5>
+                        <p>Experience the finest selection of luxury perfumes.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="asset/sliderIMG_2.JPG" class="d-block w-100" alt="Exotic Aromas">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Exotic Aromas</h5>
+                        <p>A journey through the senses with unique and exotic fragrances.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#perfumeCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#perfumeCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
+    <!-- Featured Perfumes Section -->
+    <section id="featured" class="container mt-5">
+        <h2 class="text-center mb-4">Featured Perfumes</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="asset/dunhill.JPG" class="card-img-top" alt="Perfume 1">
+                    <style>#featured .card {
+                        border: none;
+                        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                        transition: transform 0.2s;
+                    }
+                    
+                    #featured .card:hover {
+                        transform: translateY(-5px);
+                    }
+                    
+                    #featured .card-title {
+                        color: #4a148c;
+                        font-weight: bold;
+                    }
+                    
+                    #featured .btn-primary {
+                        background-color: #6a1b9a;
+                        border: none;
+                    }
+                    
+                    #featured .btn-primary:hover {
+                        background-color: #4a148c;
+                    }</style>
+                    <div class="card-body">
+                        <h5 class="card-title">Dunhill Icon Alfred Eau De Parfum</h5>
+                        <p class="card-text">A classic, sophisticated, and mysterious perfume.</p>
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="asset/mysticOud.JPG" class="card-img-top" alt="Perfume 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Mystic Oud</h5>
+                        <p class="card-text">An intense and exotic fragrance with hints of oud.</p>
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="asset/acquaDiParma.JPG" class="card-img-top" alt="Perfume 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Acqua di Parma Colonia</h5>
+                        <p class="card-text">Warm and precious woody notes of vetiver, sandalwood, and patchouli round off the base of this iconic Eau de Cologne..</p>
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section id="reviews" class="container mt-5">
+        <h2 class="text-center mb-4">Customer Reviews</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <blockquote class="blockquote">
+                    <style>#reviews blockquote {
+                        background-color: #f3e5f5;
+                        border-left: 5px solid #6a1b9a;
+                        padding: 1rem;
+                        border-radius: 8px;
+                        margin: 1rem 0;
+                        font-style: italic;
+                    }
+                    
+                    #reviews footer {
+                        color: #4a148c;
+                        font-weight: bold;
+                    }
+                    </style>
+                    <p>"Dunhill is the best perfume I have used till now."</p>
+                    <footer class="blockquote-footer">Rahul K.</footer>
+                </blockquote>
+            </div>
+            <div class="col-md-6">
+                <blockquote class="blockquote">
+                    <p>"Mystic Oud is a masterpiece! Such a unique, intense scent."</p>
+                    <footer class="blockquote-footer">Simran T.</footer>
+                </blockquote>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container mt-5">
+        <h2 class="text-center mb-4">Get in Touch</h2>
+        <form>
+            <style>#contact .form-control {
+                border: 1px solid #ddd;
+                border-radius: 5px;
+            }
+            
+            #contact button[type="submit"] {
+                background-color: #6a1b9a;
+                border: none;
+                color: #ffffff;
+            }
+            
+            #contact button[type="submit"]:hover {
+                background-color: #4a148c;
+            }</style>
+            <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="name" required>
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" required>
+            </div>
+            <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" id="message" rows="3" required></textarea>
+            </div> 
+<button>
+    
+  <div class="svg-wrapper-1">
+    <div class="svg-wrapper">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+        <path fill="none" d="M0 0h24v24H0z"></path>
+        <path fill="currentColor" d="M1.946 9.315c-.522-.174-.527-.455.01-.634l19.087-6.362c.529-.176.832.12.684.638l-5.454 19.086c-.15.529-.455.547-.679.045L12 14l6-8-8 6-8.054-2.685z"></path>
+      </svg>
+    </div>
+  </div>
+  <span>Send</span>
+  <style>/* From Uiverse.io by eirikvold */ 
+    button {
+      font-family: inherit;
+      font-size: 18px;
+      background: linear-gradient(to bottom, #5d4a92 0%,#9963f0 100%);
+      color: white;
+      padding: 0.8em 1.2em;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: none;
+      border-radius: 25px;
+      box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+      transition: all 0.3s;
+    }
+    
+    button:hover {
+      transform: translateY(-3px);
+      box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+    }
+    
+    button:active {
+      transform: scale(0.95);
+      box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    }
+    
+    button span {
+      display: block;
+      margin-left: 0.4em;
+      transition: all 0.3s;
+    }
+    
+    button svg {
+      width: 18px;
+      height: 18px;
+      fill: white;
+      transition: all 0.3s;
+    }
+    
+    button .svg-wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      background-color: rgba(255, 255, 255, 0.2);
+      margin-right: 0.5em;
+      transition: all 0.3s;
+    }
+    
+    button:hover .svg-wrapper {
+      background-color: rgba(255, 255, 255, 0.5);
+    }
+    
+    button:hover svg {
+      transform: rotate(45deg);
+    }
+    
+    </style>
+</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-light text-center py-4 mt-5">
+        <style>footer {
+            color: #fff;
+            text-align: center;
+            padding: 1.5rem 0;
+            margin-top: 3rem;
+        }
+        
+        footer p {
+            margin: 0;
+        }
+        </style>
+    </footer>
+
+    <!-- Bootstrap JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+</body>
+</html>
